@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- ICONOS Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- hoja de estilos CSS -->
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Libreria GSAP -->
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" > </script> 
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/d6adba2ff0.js" crossorigin="anonymous"></script>
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <!-- Animaciones al scrollear -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Portafolio</title>
+  </head>
+<body>
+    
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#inicio"><lottie-player src="https://assets10.lottiefiles.com/packages/lf20_wxlxk3vl.json" class="casa" background="transparent"  speed="0.8"  style="width: 100px; height: 100px;" hover loop></lottie-player>  </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Acerca de</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+    </nav>
+    <section>
+      <div id="particles-js"></div>
+      <div class="container-fluid" id="inicio">
+        <div class="d-md-block" id="nombre">
+          <h1 class="animate__animated animate__bounceInDown">Soy Matías Fernández</h1>
+        </div>
+        <div class="d-md-block" id="caja-text">
+          <h2 id="typewriter"></h2>
+        </div>
+        <img src="img/sss.jpg" class="d-block w-100" alt="">   
+      </div>
+    </section>
+
+    <div class="container" id="servicios">
+      <div class="row d-flex justify-content-center align-items-start">
+        <div class="col">
+            <h2>Conocimientos</h2>
+            <p class="titulo-icono">Lenguajes y tecnologías</p>
+            <p class="d-flex" id="iconos"> <span><i class="fab fa-html5" style="color: red;"></i></span> <span><i class="fab fa-css3-alt" style="color: rgb(100, 145, 212);"></i> <span><i class="fab fa-js-square" style="color: rgb(223, 223, 67);"></i> <span><i class="fab fa-github-square"></i></p>
+        </div>
+        <div class="col">
+          <lottie-player class="d-block m-auto" src="https://assets5.lottiefiles.com/private_files/lf30_lb5k90wv.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center align-items-start">
+        <div class="col">
+            <h2>Habilidades</h2>
+            <p>
+              <ul>
+                <li>Creación de softwares a medida.</li>
+                <li>Desarrolo y diseño de páginas.</li>
+                <li>Páginas webs responsivas.</li>
+                <li>Adaptación a cualquier lenguaje.</li>
+                <li>Compromiso y responsabilidad.</li>
+                <li>Adaptación en trabajos grupales.</li>
+              </ul>
+            </p>
+        </div>
+        <div class="col medi">
+          <lottie-player class="d-block m-auto" src="https://assets10.lottiefiles.com/packages/lf20_rycdh53q.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player> 
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center align-items-start">
+        <div class="col">
+            <h2>Educación</h2>
+            <p>
+              <ul>
+                <li>Secundario completo (2011-2017).</li>
+                <li>Licenciatura en Ciencias de la Computación (Cursando actualmente en la UNSJ).</li>
+                <li>Tecnicatura en programacion web (Cursando actualmente en la UNSJ).</li>
+                <li>Cursos de programación web (Udemy, Platzi, Youtube,etc).</li>
+              </ul>
+            </p>
+        </div>
+        <div class="col medi">
+          <lottie-player class="d-block m-auto" src="https://assets10.lottiefiles.com/packages/lf20_tbwr5cgp.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+        </div>
+      </div>
+    </div>
+    <h2 class="titulo-proy">Mis proyectos</h2>
+    <section class="d-flex justify-content-center" id="proyectos">
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="img/fotoo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mercurio Indumentaria</h5>
+              <p class="card-text">Tienda de ropa online</p>
+              <a href="https://mercurioindumentaria.000webhostapp.com/index.html" target="_blank" class="btn btn-secondary">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="img/barber-shop-5212059_1920.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BarberQiu</h5>
+              <p class="card-text">Página informativa sobre una barbería</p>
+              <a href="https://colomat.github.io/Barberia/" target="_blank" class="btn btn-secondary">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="img/music.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Playlist</h5>
+              <p class="card-text">Playlist creada con neumorfismo</p>
+              <a href="https://colomat.github.io/neumorfismo/" target="_blank" class="btn btn-secondary">Ver más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="img/earth-1617121_1920.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Planets</h5>
+              <p class="card-text">Información sobre planetas.</p>
+              <a href="https://colomat.github.io/planets/" target="_blank" class="btn btn-secondary">Ver más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <section>
+    <footer class="container-fluid" id="contacto">
+      <div class="row align-items-start">
+        <div class="col pi">
+          <h3 class="mt-2">Información de contacto</h3>
+          <div><i class="fas fa-map-marker-alt"></i> Argentina-San Juan</div>
+          <div><i class="fas fa-phone"></i> +5492644712206</div>
+          <div><i class="fas fa-envelope"></i> matifernandez2015123@gmail.com</div>
+        </div>
+        <div class="col re">
+          <h3 class="mt-2">Redes sociales</h3>
+            <a href="https://wa.me/+5492644712206" target="_blank" class="red"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/mati.fernandez17/" target="_blank" class="red"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/maaty.fernandez.1/" target="_blank" class="red"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/mat%C3%ADas-fern%C3%A1ndez-64a06a210?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZ9qupbTURbuDC92kIz5MhA%3D%3D" target="_blank" class="red"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>    
+    </footer>
+  </section>  
+    <!-- 
+    <footer class="container-fluid futer" id="contacto">
+      <div class="row align-items-start">
+        <div class="col pi">
+          <h3 class="mt-2">Información de contacto</h3>
+          <div><i class="fas fa-map-marker-alt"></i> Argentina-San Juan</div>
+          <div><i class="fas fa-phone"></i> +5492644712206</div>
+          <div><i class="fas fa-envelope"></i> matifernandez2015123@gmail.com</div>
+        </div>
+        <div class="col pi">
+          <h3 class="mt-2">Redes sociales</h3>
+            <a href="https://wa.me/+5492644712206" target="_blank" class="red"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/mati.fernandez17/" target="_blank" class="red"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/maaty.fernandez.1/" target="_blank" class="red"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/mat%C3%ADas-fern%C3%A1ndez-64a06a210?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZ9qupbTURbuDC92kIz5MhA%3D%3D" target="_blank" class="red"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="col pi">
+          <h3 class="mt-2 mb-3">Contáctame</h3>
+          <form class="contact">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label mt-3">Nombre</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Teléfono</label>
+              <input type="text" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+     -->
+  
+<!-- lottiefiles - Son animaciones -->  
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+<!-- typewritejs -->
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<!-- Boostrap -->    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<!-- Particles.js --> 
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<!-- Archivo javascript --> 
+<script src="js/main.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
